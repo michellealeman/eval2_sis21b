@@ -32,6 +32,7 @@ fontSize: 30,
 color: Colors.grey,
 fontWeight: FontWeight.bold,
 ),
+),
 const SizedBox(height: 20,),
 TextField(
 controller: _idController,
