@@ -20,7 +20,8 @@ title: const Text('Agregar Categoría'),
 ),
 body: Padding(
 padding: const EdgeInsets.all(15.0),
-child: Columnchildren: [
+child: Column(
+  children: [
 const Text(
 'Datos de la Categoría',
 style: TextStyle(
@@ -74,21 +75,19 @@ onPressed: () async {
 final id = _idController.text;
 final nombre = _nombreController.text;
 final estado = _estadoController.text;
-if (id.isNotEmpty && nombre.isNotEmpty && estado.isNotEmpty) 
+if (id.isNotEmpty && nombre.isNotEmpty && estado.isNotEmpty)
 {
 await addCategoria(id, nombre, estado).then((_) {
 Navigator.pop(context);
 });
 } else {
-// Puedes agregar manejo de error si los campos están 
-vacíos
+// Puedes agregar manejo de error si los campos están vacíos
 showDialog(
 context: context,
 builder: (context) {
 return AlertDialog(
 title: Text('Campos Vacíos'),
-content: Text('Por favor, complete todos los 
-campos.'),
+content: Text('Por favor, complete todos los campos.'),
 actions: [
 TextButton(
 onPressed: () {
