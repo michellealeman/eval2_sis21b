@@ -17,7 +17,7 @@ mainAxisAlignment: MainAxisAlignment.center,
 children: <Widget>[
 // Imagen con ambas fotos
 Image.asset(
-'images/equipo.jpg', // Ruta de la imagen combinada
+'images/img.jpg', // Ruta de la imagen combinada
 width: 150.0,
 height: 150.0,
 ),
