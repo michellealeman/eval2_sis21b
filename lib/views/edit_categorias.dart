@@ -26,8 +26,7 @@ child: Padding(
 padding: const EdgeInsets.all(15.0),
 child: Column(
 children: [
-const Text(
-'Información de la Categoría',
+const Text('Información de la Categoría',
 style: TextStyle(
 fontSize: 30,
 color: Colors.grey,
