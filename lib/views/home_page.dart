@@ -36,8 +36,7 @@ AboutUs()));
 ],
 ),
 body: FutureBuilder(
-future: getCategorias(), // Asegúrate de tener una función
-getCategorias en tu archivo CRUD personalizado
+future: getCategorias(), // Asegúrate de tener una función getCategorias en tu archivo CRUD personalizado
 builder: ((context, snapshot) {
   if (snapshot.hasData) {
 return ListView.builder(
@@ -56,8 +55,7 @@ context: context,
 builder: (context) {
 return AlertDialog(
 title: Text(
-"¿Realmente desea eliminar la categoría
-${snapshot.data?[index]['nombre']}?"),
+"¿Realmente desea eliminar la categoría${snapshot.data?[index]['nombre']}?"),
 actions: [
 TextButton(
 onPressed: () {
