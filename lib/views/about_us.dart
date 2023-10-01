@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 class AboutUs extends StatelessWidget {
 // Datos de ambos
-final String names = 'Kenia Chavarria\nMario Lopez'; // Nombres de ambos
+final String names = 'Tania Juarez\nMichelle Aleman'; // Nombres de ambos
 final String emails =
 'georgina.aleman22.itca.edu.sv\tania. juarez22@itca.edu.sv'; // Correos 
 //de ambos
