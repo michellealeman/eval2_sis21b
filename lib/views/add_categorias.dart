@@ -17,6 +17,7 @@ Widget build(BuildContext context) {
 return Scaffold(
 appBar: AppBar(
 title: const Text('Agregar Categoría'),
+backgroundColor: Colors.pink,
 ),
 body: Padding(
 padding: const EdgeInsets.all(15.0),
@@ -39,7 +40,7 @@ border: OutlineInputBorder(),
 hintText: 'Ingrese el ID de la categoría',
 prefixIcon: Icon(
 Icons.person,
-color: Colors.blue,
+color: Colors.pink,
 ),
 ),
 ),

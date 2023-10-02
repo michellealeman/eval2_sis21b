@@ -10,6 +10,7 @@ Widget build(BuildContext context) {
 return Scaffold(
 appBar: AppBar(
 title: Text('Acerca de nosotros'),
+backgroundColor: Colors.pink,
 ),
 body: Center(
 child: Column(
@@ -18,8 +19,8 @@ children: <Widget>[
 // Imagen con ambas fotos
 Image.asset(
 'images/sis21b.jpg', // Ruta de la imagen combinada
-width: 150.0,
-height: 150.0,
+width: 300.0,
+height: 300.0,
 ),
 SizedBox(height: 20.0),
 Text(

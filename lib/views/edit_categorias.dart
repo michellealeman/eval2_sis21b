@@ -20,6 +20,7 @@ _estadoController.text = arguments['estado'];
 return Scaffold(
 appBar: AppBar(
 title: const Text('Categoría'),
+backgroundColor: Colors.pink,
 ),
 body: SingleChildScrollView(
 child: Padding(
@@ -29,7 +30,7 @@ children: [
 const Text('Información de la Categoría',
 style: TextStyle(
 fontSize: 30,
-color: Colors.grey,
+color: Colors.black,
 fontWeight: FontWeight.bold,
 ),
 ),
